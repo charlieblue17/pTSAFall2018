@@ -43,8 +43,8 @@ Lecture videos will be posted to NYU Classes. Class attendance is still required
 |Sept.26| [Lab 4: LDS learning] | | |
 |Oct.2| [Lecture 5: HMMs] |  | |
 |Oct.3| [Lab 5: HMMs] | | |
-|Oct.9| [No class|  | |
-|Oct.10| [No lab] | | |
+|Oct.9| No class|  | |
+|Oct.10| No lab | | |
 |Oct.16| [Lecture 6:  Beyond linear models] |  | |
 |Oct.17| [Lab 6: Review for midterm] | | |
 |Oct. 23| [Midterm] |  | |
@@ -61,8 +61,8 @@ Lecture videos will be posted to NYU Classes. Class attendance is still required
 |Nov. 28| [Lab] | | |
 |Dec. 4| [Lecture 12:  Guest lecture ] |  | |
 |Dec. 5| [Lab] | | |
-|Dec. 11| [Project presentations ] |  | |
-|Dec. 12| [No lab] | | |
+|Dec. 11| Project presentations |  | |
+|Dec. 12| No lab | | |
 
 ### Bibliography
 There is no required textbook. Assigned readings will come from freely-available online material.
