@@ -31,7 +31,7 @@ Lecture videos will be posted to NYU Classes. Class attendance is still required
 
 ## Schedule and detailed syllabus
 
-| Date | Lecture  | Extras | |
+| Date | Lecture  | Extras | Due dates |
 |----------|---------------|----------------|----------------|
 |Sept.4| [Lecture 1: Logistics. Introduction.  Basic statistics for characterizing time series.] | [Shumway Stoffer Ch.1](http://www.stat.pitt.edu/stoffer/tsa4/) | |
 |Sept.5| [Lab1: Basic Bayesian statistics reminder.] | | |
