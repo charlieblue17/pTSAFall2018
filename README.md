@@ -2,18 +2,18 @@
 #  DS-GA 3001.001  Probabilistic Time Series Analysis
 
 ### Lecture 
-Tue, 2:00-3:40pm, in 60 5th Av, C10
+Tue 2:00-3:40pm, 60 5th Av, C10
 
 ### Lab (required for all students)
-Wed, 5.20- 6.10pm in  60 5th Av, C10
+Wed 5.20- 6.10pm 60 5th Av, C10
 
 ###  Instructor 
 Cristina Savin, csavin@nyu.edu
-Office hours: Tue, 4:00-5:00pm, Room 608
+Office hours: Tue 4:00-5:00pm, Room 608
 
 ### TA 
 Tim Kunisky, dk3105@nyu.edu
-Office hours: wed, 6:10-7:10pm, Room TBD
+Office hours: Wed 6:10-7:10pm, Room TBD
 
 ### Overview
 This graduate level course presents fundamental tools for characterizing data with statistical dependencies over time, and using this knowledge for predicting future outcomes. These methods have broad applications from econometrics to neuroscience. The course emphasizes generative models for time series, and inference and learning in such models. We will cover range of approaches including AR(I)MA, Kalman Filtering, HMMs, Gaussian Processes,  and their application to several kinds of data.
@@ -31,7 +31,7 @@ Lecture videos will be posted to NYU Classes. Class attendance is still required
 
 ## Schedule and detailed syllabus
 
-| Date | Lecture  | Extras | |
+| Date | Lecture  | Extras | Due dates |
 |----------|---------------|----------------|----------------|
 |Sept.4| [Lecture 1: Logistics. Introduction.  Basic statistics for characterizing time series.] | [Shumway Stoffer Ch.1](http://www.stat.pitt.edu/stoffer/tsa4/) | |
 |Sept.5| [Lab1: Basic Bayesian statistics reminder.] | | |
@@ -43,8 +43,8 @@ Lecture videos will be posted to NYU Classes. Class attendance is still required
 |Sept.26| [Lab 4: LDS learning] | | |
 |Oct.2| [Lecture 5: HMMs] |  | |
 |Oct.3| [Lab 5: HMMs] | | |
-|Oct.9| [No class|  | |
-|Oct.10| [No lab] | | |
+|Oct.9| No class|  | |
+|Oct.10| No lab | | |
 |Oct.16| [Lecture 6:  Beyond linear models] |  | |
 |Oct.17| [Lab 6: Review for midterm] | | |
 |Oct. 23| [Midterm] |  | |
@@ -61,8 +61,8 @@ Lecture videos will be posted to NYU Classes. Class attendance is still required
 |Nov. 28| [Lab] | | |
 |Dec. 4| [Lecture 12:  Guest lecture ] |  | |
 |Dec. 5| [Lab] | | |
-|Dec. 11| [Project presentations ] |  | |
-|Dec. 12| [No lab] | | |
+|Dec. 11| Project presentations |  | |
+|Dec. 12| No lab | | |
 
 ### Bibliography
 There is no required textbook. Assigned readings will come from freely-available online material.
