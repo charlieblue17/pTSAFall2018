@@ -35,7 +35,7 @@ Lecture videos will be posted to NYU Classes. Class attendance is still required
 |----------|---------------|----------------|----------------|
 |Sept.4| [Lecture 1: Logistics. Introduction.  Basic statistics for characterizing time series.] | [Shumway Stoffer Ch.1](http://www.stat.pitt.edu/stoffer/tsa4/) | |
 |Sept.5| [Lab1: Basic Bayesian statistics reminder.] | | |
-|Sept.11| [Lecture 2: AR(I)MA] | [Shumway Stoffer Ch.3](http://www.stat.pitt.edu/stoffer/tsa4/) | |
+|Sept.11| [Lecture 2: AR(I)MA] | [Shumway Stoffer Ch.3](http://www.stat.pitt.edu/stoffer/tsa4/) |Hw1, due Sept.28 |
 |Sept.12| [Lab 2: ARIMA] | | |
 |Sept.18| [Lecture 3: LDS, Kalman filtering] |  | |
 |Sept.19| [Lab 3:  LDS inference ] | | |
