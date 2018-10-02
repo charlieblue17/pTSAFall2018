@@ -13,7 +13,7 @@ Office hours: Tue 4:00-5:00pm, Room 608
 
 ### TA 
 Tim Kunisky, dk3105@nyu.edu
-Office hours: Wed 6:10-7:10pm, Room TBD
+Office hours: Wed 6:10-7:10pm, Room C15
 
 ### Overview
 This graduate level course presents fundamental tools for characterizing data with statistical dependencies over time, and using this knowledge for predicting future outcomes. These methods have broad applications from econometrics to neuroscience. The course emphasizes generative models for time series, and inference and learning in such models. We will cover range of approaches including AR(I)MA, Kalman Filtering, HMMs, Gaussian Processes,  and their application to several kinds of data.
