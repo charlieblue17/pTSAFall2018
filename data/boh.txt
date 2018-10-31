@@ -1,0 +1,1859 @@
+[pp 38-40:  Article from DIE ZEIT, 30 November 1984, by Thomas von Randow]
+
+Bildschirmtext:  A Blow Against the System
+
+A Computer Club Discovers Breaches of Security in the Bundespost's BTX Program
+
+"Whoever hooks up to the BTX system in the next two to three years should be
+punished for stupidity."  This withering assessment of the Bundespost's new
+service, Bildschirmtext, could be heard last week at the eighth conference of
+data protection specialists in Cologne--from an authoritative source.  It was
+spoken by the chairman of the Association for Data Protection (GDD), the
+conference host, after he heard the comments of a computer entthusiast.  With
+wit and a relaxed patter, Herwart ("Wau") Holland of Hamburg's "Chaos Computer
+Club" (CCC) explained how he and his 23-year-old fellow club member, Steffen
+WernÇry, had managed to take the Bildschirmtext service for a ride.
+
+It is easier to get a winning six-digit combination in the lottery than to
+illegally acquire the password of a BTX subscriber, Bildschirmtext experts at
+the Bundespost had boasted.  But that is exactly what the computer chaotics did
+straight away.  An error, in professional circles called a bug, in the system's
+computer program made it as simple as child's play for the hackers.  Many
+Bildschirmtext users had already noticed that there was something wrong with
+the program.
+
+Suppliers compose full-screen images with information about what they have to
+offer--merchandise from the mail-order catalogue, vacations, account statements
+for bank customers, or simply letters to friends.  These "pages" can then be
+called in by (authorized) BTX subscribers, and responses to the relevant
+questions--concerning a flight booking or a money transfer, for example--can be
+input at home on the keyboard of the BTX auxiliary unit.
+
+However, space on a television screen is limited, and the BTX page can hold
+only 1,626 characters.  So that the designer knows during editing how many
+characters he has left on the page, this number is indicated at the bottom edge
+of the screen.  Until recently, however, this number was wrong--programmers are
+notoriously poor at mental arithmetic.  The page was full before the number of
+available characters reached zero.  For this reason, many suppliers experienced
+a chaotic overflow of characters, something that should not happen.
+
+Suddenly, all sorts of words, numbers or incomprehensible letter sequences flit
+by on the screen.  The reason for this character salad:  The creators of the
+BTX program apparently forgot to take care of "trash disposal," i.e., to see to
+it that excess text be ignored by the program or somehow set aside.  For that
+reason, the excess characters force parts of the program writer onto the
+screen, and they are, as the Hamburg hackers discovered, sometimes telling. 
+Specifically, they sometimes reveal the very secret that a BTX subscriber must
+guard most closely, his identification code.  This password is the key to
+access to the system.  Although it cannot be used to plunder someone else's
+bank account, it is possible to cause a great deal of mischief.  Merchandise
+can be ordered, vacations can be booked, magazine subscriptions can be entered. 
+By agreement, the legal holder of the security code is liable for all damage
+thus incurred.
+
+Steffen WernÇry and his colleagues--the club is a registered subscriber--caused
+masses of BTX pages to overflow and then studied the ghostly characters on the
+screen.  In so doing, they discovered "usd 70000," the password for Hamburger
+Sparkasse (Haspa).  Now they were able to carry out what they had been planning
+for some time:  an impressive demonstration of the inadequacies of
+Bildschirmtext.  They set up a "contribution page."  Suppliers may charge a
+type of protection fee or contribution for each call-in of their pages,
+although this fee cannot exceed DM 9.99.  The account of the subscriber who
+calls in the page is automatically charged with the fee.  With the Sparkasse
+password, the hackers now called in their own page--to the tune of DM 9.97.
+
+The idea was for this to occur repeatedly, which is why a home computer was
+programmed to automatically call in the page over and over again.  It did its
+job well, and while the club members worked on other activities, the cash
+register rang every three seconds.  From Saturday at 6:00 p.m. until Sunday at
+1:00 p.m., a total of DM 135,000 was credited to the club's account, money
+which they gladly returned to Haspa.
+
+Long before computers were popular, American students dubbed a type of trick
+using technology a "hack."  Legendary is the hack of Captain Crunch, a student
+who took his name from a brand of breakfast cereal.  Inside the box of this
+type of cereal was a small plastic whistle, that was coincidentally tuned to
+exactly 2,600 hertz.  In the American telephone system, as Captain Crunch
+discovered, this frequency, when whistled into the microphone of the telephone
+receiver, caused a breakdown in the fee meter.
+
+Word of the trick with free long-distance calls soon spread; it made the cereal
+company rich and the telephone company poor.  Or at any rate, it was in a
+difficult bind.  A decision had to be made between accepting the loss, the
+amount of which was difficult to determine, and undertaking expensive technical
+changes in the continental network.  Bell decided in favor of the second
+option.
+
+This type of blow against a computer system represents a wonderful triumph that
+goes far beyond the financial advantage associated with it; it is a liberating
+blow, which frees us for a few moments from the dominance of technology.  In
+the 1930s, small-plot gardeners in Hamburg illuminated their houses free of
+charge.  The supplier of electricity was the nearby antenna of a strong radio
+broadcaster, from which energy was diverted using a simple trap circuit to the
+lamps.  For years, this hack went undetected--and once it was finally blown
+open, it elicited a fundamental legal debate:  Are radio waves movable property
+under the meaning of the law?
+
+The trickster who thought up the hack with the first push-button pay phone by
+SEL just 10 years ago remained anonymous.  For this, he used a piezoelectric
+lighter.  Whoever wanted to make a free phone call simply went to a telephone
+booth with the SEL phone, inserted a five-mark piece and called his party.  But
+before all the money was used up, the lighter had to be struck near the key
+pad.  The spark from the lighter significantly disturbed the electronics and
+the phone was then forced to assume that the connection had not been made, and
+thus--in dubio pro comparticipte--the five-mark piece was returned.  In all pay
+phones of that type, the logic boards had to be replaced.
+
+For the victim, the hack is not only annoying, it is generally an educational
+experience as well, revealing technical design flaws.  Naturally, as the degree
+of complexity of the system increases, so does the potential for damage that
+can be inflicted even with the first hack.  Thus, it is a wonder that the games
+played by BTX hackers have thus far been harmless.  After all, they revealed
+the wretchedness of the Bildschirmtext design with a degree of clarity that
+leaves nothing to be desired.
+
+In BTX's country of origin, Great Britain, hackers made a game out of cracking
+Prince Philip's electronic mailbox.  The BTX mailboxes are definitely oddly
+constructed.  Bildschirmtext letters that have already been mailed can be
+rewritten later by the sender.  Any mailbox can even be rendered fully
+inoperative.  In order to do so, all that is required--as the Hamburg Chaos
+hackers also discovered--is that the command to repeat the entire call-in be
+placed at the end of a page edit.  The page drawn up in this way then appears
+repeatedly.  It also does so in the mailbox to which it is sent, the result
+being that nothing else can be retrieved from it.  Only the Bundespost knows
+how to break up this vicious cycle.
+
+A microcomputer can also be connected to the Bildschirmtext system.  But pity
+the poor soul who uses it to call in a crash program specialized for his type
+of machine.  That will cause the computer to crash, destroying the programs
+loaded in its memory.  The only thing that can be done then is to reboot.  The
+destructive program is offered as a harmless Bildschirmtext page.  Advanced
+hackers have even set them up as time bombs.  It is only later, once the page--
+generally headed with silly sayings--is long forgotten that the machine breaks
+down, so that generally the cause can no longer be determined.
+
+The Bundespost should have learned its lesson long ago, before its pride and
+joy, Bildschirmtext, was dealt a resounding blow last week by the Sparkasse
+trick.  The piecemeal adjustments that they undertook in the past after every
+announced BTX hack were apparently inadequate.  A program that needs so much
+clearing up is hopelessly contaminated.
+
+Naturally, the Bundespost knows this, and it grieves them in particular because
+BTX had just overcome the last political hurdle on the path to being
+universally introduced.  It also hurts since there is already a dearth of
+interest in the new medium of communication.  According to predictions by the
+Ministry, BTX should have around 150,000 subscribers by now.  In reality, that
+figure is only a scant 19,000, of which 3,000 are suppliers.
+
+It is questionable whether the Bundespost will be able to compensate for its
+losses from IBM, who set up the system.  "Big Blue" will scarcely be able to
+get out of supplying a new computer program.  And that could take two to three
+years, which is the time that Reinhard Vossbein meant when he declared anyone
+who subscribes to Bildschirmtext during that period guilty of stupidity.
+
+[p 40:  Unattributed text]
+
+MSG by GAST
+20 November 1984, 5:10 a.m.
+
+MICKI is thinking about the CCC's BTX gag (bravo, by the way...), and reaches
+the following conclusion:
+
+The more securely a system is protected against unauthorized access, the more
+unauthorized the people who can uncover weaknesses must be.
+Ultimately, you have a system to which only the unauthorized have access...
+
+In this regard:  Keep on doing it!
+
+[p 40:  Unattributed text of computer program]
+
+10 REM bankrob.ba
+20 REM Version 1.00
+30 REM (c) 1984 by Wau
+40 MOTOR OFF: 'Relay for money key
+100 CLS:PRINT"Bankrob.ba -Restart procedure"
+110 INPUT "Prior money received: ";MONEY
+120 IN=52:'Time value key on
+130 OUT=169:'Time value key off
+150 CLS:PRINT0,"DM ";MONEY,"in: ";IN;" out: ";OUT;
+160 PRINT90,"o<<<< out >>>> O"
+170 PRINT130,"i<<<< in >>>> I"
+180 PRINT170,"Stop with x      "
+190 PRINT210,TIME$;:GOTO 1100
+200 REM Rhomboid loop
+210 MOTOR ON:PRINT40,"IN":PRINT40,TIME$:FOR I=1 TO IN:GOSUB 1000:NEXT I
+220 MOTOR OFF:PRINT40,"OUT":FOR I=1 TO IN:GOSUB 1000:NEXT I
+230 MOTOR ON:PRINT40,"IN":FOR I=1 TO IN:GOSUB 1000:NEXT I
+240 MOTOR OFF:PRINT40,"OUT":FOR I=1 TO OUT:GOSUB 1000:NEXT I
+250 MONEY=MONEY+9.97:PRINT0,"DM ";MONEY,"In: ";IN;" Out: ";OUT;
+260 GOTO200
+1000 REM Speed
+1010 X$=INKEY$:IF X$="" THEN RETURN
+1020 IF X$="o"THEN OUT=OUT-1:RETURN
+1030 IF X$="O"THEN OUT=OUT+1:RETURN
+1040 IF X$="i"THEN IN=IN-1:RETURN
+1050 IF X$="I"THEN IN=IN+1:RETURN
+1060 IF X$<>"x" THEN RETURN
+1100 PRINT170,"Continue with x   "
+1110 MOTOR OFF:PRINT40,"OUT"
+1120 X$=INKEY$:IF X$="x" THEN 1150 ELSE 1120
+1150 PRINT170,"Stop with x    ";GOTO 200
+
+[pp 41-42:  Article by "Wau," from TAZ, 22 November 1984]
+
+How the Hamburger Sparkasse BTX Code Was Cracked
+
+Bildschirmtext Tested for Weaknesses
+
+Ever since the coup by the Chaos Computer Club in Hamburg, who used a bug in
+the Bildschirmtext system to charge fees of DM 135,000 to Hamburger Sparkasse,
+Bildschirmtext, or BTX, has been a topic of discussion, and the chaotics from
+the Chaos Club have made headlines.
+
+Bildschirmtext is a big joke being played on consumers.  For more than seven
+years, "field tests" were run in Berlin and DÅsseldorf.  From the very
+beginning, it was obvious that the system would be introduced following the
+field tests, regardless of the results of the "tests."  The political objective
+made immense investments possible, thus making it simply impossible to abandon
+the system.  After the "test," the test subscribers could throw away their
+equipment, since in the meantime it had become technically obsolete.  The
+Bundespost paid for the technical conversion, giving all the subscribers a
+1,000-mark credit, financed by the coins spent on pay telephone calls. 
+Nevertheless, around one in six refused this attractive offer and terminated
+BTX service.  The Bundespost predicted 150,000 subscribers by the end of 1984. 
+It was actually a scant 20,000, which includes many who are not active
+subscribers.  In the meantime, the Bundespost has stopped making its own
+predictions, instead spending a couple of million on programs that are supposed
+to provide better prognoses.
+
+The Bundespost has invested more than DM 700 million in BTX.  If you compare
+this to subsidies for opera houses, then the Bundespost has built a 35,000-mark
+box for each subscriber.  The only problem is that the opera program is still
+rather monotonous.
+
+IBM is the supplier of the computer and of the programs for the current system. 
+They had high hopes about their deal, and wanted to sell their system to a
+number of countries.  After all, approximately 100 people worked on programming
+for around two years.  If you spend DM 20,000 a month for one of these
+specialists, that makes DM 50 million.  A succession of several executives was
+in charge of the project.  There were only a few "minor details" to be improved
+in the program, and with programs the smaller the correction, the more time
+they take.
+
+Chaos Team Becomes BTX Supplier
+
+In the fall of 1984, after long debate, the Chaos Computer Club decided to
+subscribe to BTX.  Naturally as a "supplier," since being a subscriber is not
+interesting.  They started with the least expensive equipment, which was
+technically refurbished.  Still, the first months were torturous.  The
+prevailing mood with home computers is well-known:  "Turn it on--it doesn't
+work."  But with the Bundespost, everyone expects that everything will work
+fine.  It is only rarely that you get mail from the Bundespost saying, "Because
+of work on the system, few telephone calls will be possible on the weekend." 
+With Bildschirmtext, hardly anything worked.  Even an accent on a letter in a
+person's name caused unexpected developments (and this in a "European" system). 
+In terms of computerization, changing names with accepts is offered up as a
+subversive strategy.  Moreover, the blocking and unblocking of pages did not
+work.  Blocked pages were legible, unblocked ones were not.  The Bundespost
+told people who complained that they were doing something wrong.  Blocked pages
+are something like the closed doors in an Advent calendar.  On the first of
+December, the first door is opened (in BTX:  unblocked), on the second the
+second door, and so on.  The Bundespost has a Christmas calendar game of chance
+in Bildschirmtext.  Every day, new letters behind a door can be seen, and on 24
+December, there is a complete sentence (Season's Greetings from the
+Bundespost).  But without any coercion, all the doors flew open on the first of
+the month.  Either someone at the Bundespost typed something wrong, or the
+system has yet another small bug.  The Chaos Computer Club (CCC) first got wind
+of this on 12 December, and sent in the complete solution, the prize being
+telephone credits.  It is interesting how many subscribers sent in the solution
+before the CCC.  Does the Bundespost perhaps believe here as well that some
+chaotics sneaked into the Bundespost to find the solution?
+
+However, a major problem with BTX is composing pages.  The CCC does a type of
+electronic newspaper, which is published irregularly.  Once a new article has
+been written and is supposed to be loaded into the system, all eyes focus on
+the lowest line, waiting for the message "ED007 EXECUTION NOT POSSIBLE AT
+PRESENT" or otherwise "Won't work right now."
+
+In order to penetrate the BTX system, all you need is the connection code. 
+Every subscriber has a different 12-digit number.  This access authorization is
+generally sent by pressing one key.  This is practical and reasonably safe. 
+You can imagine it as a nine-digit padlock (the first three numbers are
+generally zero) on your bicycle shed.  Secondly, there is a personal code word. 
+This is comparable to a padlock on the bicycle itself.  And you can also put
+your bicycle in a communal shed.  In BTX, this is called a "free-access
+connection."  In that case, anyone can go into the communal shed and, if he
+knows the number of a particular bicycle lock, he can move about in BTX and
+take a look at things.  A lot of it is free of charge, but some information or
+offerings cost money.  Springer-Verlag reports cost 1 pfennig, FRANKFURTER
+ALLGEMEINE ZEITUNG reports cost 2 pfennigs, and the owner of the bicycle pays
+for this, not the cyclist.
+
+Test of BTX Weaknesses
+
+At some point, discussion at CCC came back to BTX and the policy of the
+Bundespost to simply ignore or deny the risks of BTX.  The question arose of
+whether this was intentional or just stupid.  A test was decided on.  Who would
+be the guinea pig?  The Bundespost Ministry in Bonn?  A single quote suffices
+here:  BTX is allegedly secure because it is difficult to tap into the
+telephone lines in this country, since they are all underground.
+
+The BTX control facility in Ulm is not that interesting as a test object.  It
+tries to keep the system running.  And the Berlin office of BTX is responsible
+for calming down postal customers when something goes wrong.  The Central
+Telecommunications Office (FTZ) in Darmstadt is the site where technical plans
+and standards are drawn up.  There one might expect to find the practical
+technicians who worked out the security system.  Those are the right people for
+a test of BTX weaknesses.  Without giving it much more thought, the BTX
+connection of the FTZ was tested one day by the CCC:  Do they or do they not
+have free access?  In order to find out, their subscriber number had to first
+be entered:  06151 83.  That is the telephone number for the FTZ.  Then there
+is the prompt for the code word.  At this point, you can type in anything and
+tell from the subsequent error message whether the FTZ has a free-access
+connection or not.  The CCC typed something in, the same telephone number
+again.  The FTZ was careless:  There was free access.  But even worse, the FTZ
+had chosen its own telephone number as its secret code word.  That is clearly
+more careless than one would have expected, certainly from Bundespost
+specialists.
+
+A record is kept by the Hamburg data protection commissioner of who worked on
+Bildschirmtext when.  Since the BTX reports when someone was last "on," an
+"outside use" can often be detected in this way.  But scarcely anyone keeps a
+record of it; it is too tedious.  At any rate, the FTZ did not notice the
+"outside use" by the CCC.  This cleared up the question:  The Bundespost was
+not withholding and/or providing false information about BTX out of stupidity.
+
+The CCC considered what it should do now.  The most obvious thing was of course
+to get money from the Bundespost.  In order to do so, a page for which a fee is
+charged must be called in by another BTX subscriber.  And that can be repeated
+any number of times.  The highest price per page is currently DM 9.99.  With 1-
+pfennig pages from Axel Springer, the CCC tested, at its own expense, how fast
+money can be collected using that method.  In non-automatic operation, it
+worked out to around DM 10 an hour.  For the CCC page, at DM 9.97, this would
+be DM 10,000 an hour.  So you could really get something over night.  These
+fees are charged on the telephone bill--in this case, the FTZ's telephone bill
+--and transferred to the suppliers a couple of weeks later.  Right now, it is
+not working again, the Bundespost has another bug in the program, and it hopes
+to be able to pay the fees in February.  In principle, however, the money is
+being recorded.
+
+Getting the money would be phase one.  What then?  Should we sell this breach
+of security to the Bundespost?  We could, as is normal in industry, "hack" DM
+100,000 or more and then sell the Bundespost consultation on this problem for a
+certain percentage of the money.  Or get free, lifetime telephone service for
+the CCC or something like that.  The Bundespost had to pay for its gross
+negligence.
+
+In both cases, however, the price would have been silence.  Otherwise, the
+concentrated rage of the postal authorities would have been forthcoming. 
+Consequently, perhaps half a dozen officials would have tried to do something
+to the CCC.
+
+But the CCC wanted enlightenment about the risks of this new system.  To this
+end, the finance transaction had to be made public.  Fine, but who should push
+the starting button for the money transfer?  After all, it is an infringement
+like a parking ticket, although more expensive:  a DM 50,000 fine.  Will the
+data protection commissioner do it?  He probably would have taken advantage of
+the opportunity and attempted to achieve an improvement by official means.
+
+A politician?  Perhaps.  But what if he leaks the story?  There remained only
+one option:  Do it ourselves, and abrogate our criminal liability by going
+public with it.  A week later, the attempt failed, since the FTZ had in the
+meantime closed off free access to its connection.
+
+Hackers as Data Protection Specialists
+
+Several weeks later, Wau gave a presentation at a conference of data protection
+specialists in Cologne:  BTX--El Dorado for Hackers.  Cologne was a sea of pin-
+stripes, and Wau looked like a parrot in the midst of it all.  Despite their
+initial distance, the audience was impressed by his presentation.  Only the
+representative of the Bundespost felt that he was hitting below the belt, and
+that he did not intend to address those issues.  That was dismissed with
+laughter, since the presentation depicted a series of program bugs drastically
+and in three dimensions.  There is a bug in the sending of electronic mail. 
+The sender can still change the contents after the letter has arrived.  You can
+send a business partner a bid for, say, DM 2,300 and then later change the
+price, either raising it or lowering it.  Another bug means that under certain
+circumstances the BTX system spits out internal system information.  With a
+little luck, connection code words and secret passwords can be detected in this
+way.  "Nonsense," said the Bundespost representative.  And to the offer of
+cooperation came only the response, "First you have to get serious."  It is
+unclear whether the CCC succeeded in doing so.  At the very least, the BTX
+system finally spit out the connection code word and secret password of the
+Hamburger Sparkasse after a number of tries with the well-known system bug. 
+Thus, it became possible to carry out the presentation planned for the FTZ with
+the Sparkasse instead.
+
+Almost everything went as planned.  Over night, in 12 hours and 59 minutes, a
+good DM 134,000 was raised.  With a portabfü ú“∆@%¡’—ï»Å—°îÅ¡ÖùîÉen run in a
+daily newspaper, and a meeting of two dozen people from all over West Germany
+then took place in Berlin.  We then decided to keep in touch and exchange
+experiences.  The idea was simply to put together a magazine, but at that point
+it was all too vague, and it didn't come off.  Next, contacts with the United
+States were established, with Cheshire Catalyst (the "king" of U.S. hackers,
+Ed.) and with his magazine TAP, which a bunch of people here in West Germany
+already knew about and subscribed to.  At the Telecom in the fall of 1983, I
+met him personally and wrote a two-page article about him in a daily newspaper. 
+And this two-page article elicited a great deal of response.  By the end of the
+year, things had progressed far enough to set up a magazine.  Previously, the
+idea was to exchange all information by floppy disk, but everything was
+incompatible, and it had no purpose.  The magazine was announced around the
+beginning of the year, and we received 100 replies within one week.  And so to
+us in Hamburg, it was obvious:  If 100 people want it, then it has to be done. 
+In March, the first issue was finally finished.  Once the first and second
+issues were out, there was a veritable flood of letters.  The amount of mail
+was equivalent to placing both my hands on end.
+
+[Question]  How many subscriptions does the magazine have?
+
+[Answer]  We took the course that whoever writes should get information,
+regardless of whether they send money in.  The number of subscriptions
+fluctuates somewhere over 200.
+
+[Question]  How do your finances look right now?
+
+[Answer]  Terrible!  The production costs are around 10 pfennigs per copy, for
+both sides of a DIN A3 page.  On the other hand, the most expensive thing is
+postage, 50 pfennigs a piece.  For each copy there are three copies that are
+not paid for, that we simply send out, as a sample or in response to a request
+with no money enclosed.  It is in fact financed by the skin of our teeth, but
+we do hope that a number of people are willing to pay for it.  If money comes
+in, then we can continue.
+
+[Question]  And of the 200 subscriptions has each one paid around DM 30?
+
+[Answer]  More or less.  They came in with the full amount, a couple sent more
+than that, but unfortunately it was fewer than we had hoped.  It costs about DM
+1000 to produce one issue of DATENSCHLEUDER.
+
+[Question]  How long will people receive DATENSCHLEUDER for their DM 30?
+
+[Answer]  One Chaos year.  That is effectively around one year, with around 10
+issues.  You definitely have to give our address, or they'll come beating your
+door down for that.
+
+[Question]  How many regular members do you have now?
+
+[Answer]  About the membership structure--it's rather open and free.  Everyone
+who has information for us simply contributes it, whether he has a subscription
+or simply receives DATENSCHLEUDER, or even if he knows nothing about
+DATENSCHLEUDER.  There are people who are working on the modem layout, and we
+are producing and marketing motherboards, for example.  And then we do
+DATENSCHLEUDER, and also do communication via computer.  It is simply an open
+structure, where anyone who feels like it can join in and leave at any time. 
+But we are thinking about whether we should impose organizational structures on
+the whole thing.  There are a couple of external areas where we are simply
+encountering problems.  But on the other hand, we basically like this open
+structure.  It's a dilemma.
+
+[Question]  But surely you can provide an approximate number?
+
+[Answer]  If we approach it in terms of subscriptions, we come up with more
+than 200, of which around 30 are in Hamburg.  But that's very fluid.  Should I
+count a graphic artist who does a couple of pictures for DATENSCHLEUDER as a
+member?  We don't look at it that narrowly.  Somebody comes along, finds it
+interesting, and joins in.  That's also how it is at our meetings, which we
+hold once a week at a bar here in Hamburg.  We always get different people
+there, it's just a regular meeting base.  On the other hand, we generally meet
+once a month to exchange information.
+
+[Question]  What kind of people are involved?
+
+[Answer]  It ranges from pilots to a metalworker, people who run their own
+shops to unemployed people and students.  They are between 16 and 35.  No one
+is older than that.
+
+[Question]  What is your assessment of the legal status of your activities?
+
+[Answer]  We just don't like being forced into any corner.  Now people are
+saying that it's all criminal, breaking into data bases and getting into
+0‰= uÈÉ~* tÈ
+ãF(ª ˜Îƒv6&ã\R&ãtPçFPâ^.âv,ö¬ãÂƒv,&âD&â\äF0‰Èö ƒv,&« äF0‰±”‡ä^0ˇÿ&â\Èë ƒv,&« äF0‰&âDäF0‰&âDÎuƒv,&« äF0‰&âDÎbƒv,&« äF0‰&âDÎOƒv,&«A äF0‰&âDÎ<∏éP∏ Pö
+Postreklame Hamburg, Eiffestr. 16, 2000 Hamburg 26
+
+Mr Phan ba Qu
+2000 Hamburg
+
+Winner, happy ending
+
+Dear Mr ba Qu!
+
+The "BTX Hamburg Week 85" from 1-8 June dealt with BTX.
+
+Information, joining in, winning--this was what was going on during this
+fantastic action week.
+
+And you won!  Congratulations!
+
+From the happy ending conclusion of our big BTX competition, you will receive
+as a prize your choice of
+
+1 year subscription to DATENSCHLEUDER or
+1 gift certificate for DM 25.
+
+We look forward to giving you your prize; please call about details.
+
+CCC Chaos Computer Club.
+
+Sincerely,
+
+[signature]
+
+[p 44:  Boxed item]
+
+June 1985
+
+10 Previous month
+
+Again, no revision in the month of June.
+
+The CCC is currently working on the "Hacker Bible."  This work of approx. 254
+pages will be published in the fall.
+
+More on this after printing in the current section.
+
+Have a sunny vacation!
+
+Chaos Team
+
+90 Next month
+
+[p 44:  Boxed item]
+
+Advertisement in BILD-HAMBURG paid for by the Bundespost
+
+BTX Hamburg Week 85, 1-8 June
+
+Information, join in, win
+
+Here You Will See BTX "Live"
+
+ABC-Datensysteme
+Segeberger Chaussee 36, Norderstedt
+
+A+L Infocenter
+Isestr. 115, Hamburg 13
+
+BTX Partner
+Koopstr. 20-22, Hamburg 13
+
+Chaos Computer Club International
+[address redacted], Hamburg 20
+
+Deutsche Bank
+Spitalerstr. 16, Hamburg 1
+
+Hamburg-Information
+Pavillon, Gerhart-Hauptmann-Platz, Hamburg 1
+
+HEW
+Spitalerstrasse 22, Hamburg 1
+Osterstrasse 133, Hamburg 20
+Gr. Bergstrasse 223-225, Hamburg 50
+FuhlsbÅttler Strasse 229, Hamburg 60
+Bergedorfer Strasse 133, Hamburg 80
+SchlossmÅhlendamm 12, Hamburg 90
+
+Philips
+Mînckebergstr. 7, Hamburg 1
+In the foyer
+
+Vereins- und Westbank
+Alter Wall 22, Hamburg 11
+
+[p 45:  Cartoon]  Left bubble:  This is the horrible story of where
+overmechanization and the associated shortening of the work week will lead if
+we are not sensible about it.
+
+Right bubble:  O Duckberg, you noble, you industrious city!  How much energy is
+wasted within your walls because the citizens have not noticed that the future
+is already upon us?
+
+[p 45:  Caption, upper right corner]  The Chaos Computer Club thinks that love
+on an empty stomach is no fun.
+
+[pp 45-46:  Unattributed article]
+
+Progress Into Chaos
+
+Oh, Daniel, you quack.  So we're living in the beginning of the future.  In the
+middle of chaos.  Terrible, terrible!  But that's no reason to go decadent and
+engage in rampant consumerism.  There has always been chaos.  First violent and
+ribald, then in the hammock.  Chin up!  Hope is the feeling that can achieve
+what you long for.  And as long as THE bomb has not fallen, there is naturally
+hope.
+Where is chaos?  This was the 64-thousand-dollar question posed by the Black &
+White Group to the CCC (TAZ of 22 February).  So let's see...
+
+On Criticism of the CCC
+
+... the result of these free tests has always been that the Bundespost has
+filled in the gaps even tighter, and the system has become tangibly "more
+secure..."
+
+It is also true that the police learns something from each demonstration.  "In
+contrast to the CCC, we (Black & White) are not interested in seeing
+Bildschirmtext become more secure or in guaranteeing optimal 'data protection.' 
+We are fundamentally opposed to BTX and to the computerization of all areas of
+life."
+
+Something that I somehow suspected all along, but did not dare ask:  security
+in quotation marks.  Clearly ambiguous.
+
+Precisely the synonym for all manifestations of "security."  With absolute
+security (thanks to Albert), it is clear that the speed of light is the same
+absolutely ALWAYS.  And otherwise not at all! [Footnote:  "Relative Interest? 
+Bertrand Russell, "The ABCs of Relativity Theory," 1972, rororo 6787, DM 4.80]
+
+Anyone who knows only a little about machines will not dare deny the following: 
+The simpler the design of a machine and the fewer parts it has, the less
+susceptible to disruption it is.  Thus, relatively simple machinery is more
+flexible and can be adapted more easily to changing needs.  In contrast, our
+technological society has specialized its functions to such a degree that the
+entire system threatens to break down if only one part of the machinery
+fails...
+
+Overspecialization, biologists say, is one of the main factors that cause a
+species to become extinct.
+
+So how do things look in the computer industry?
+
+Software.  The programs.  Experts think that for every legally sold diskette
+there are up to ten pirated ones.  Of course, we know that there are more than
+this.  The dimensions:  Millions of copies of the successful word-processing
+program Wordstar have been sold.  DM 1,200 per diskette.  That comes to...  But
+please consider the price-depressing factor of software piracy.  Eighty million
+diskettes are sold worldwide each year.
+
+The professional marketers of software have a bad hand, because their cards are
+marked by their own operational structures.  Professional institutions need
+their time for planning, organization, marketing, etc.
+
+Most programs come from the United States.  Software piracy is hooked up in
+networks.  "Security" again takes a back seat.  Quickly pirated, copies come
+here to Germany by telecommunication.  Before the pros assert their
+professional needs, the alternative need has spread:  Once the program has been
+written, it can be copied by anyone in seconds.
+
+Software can also be changed.  What's plagiarism?
+
+A typical career:  A programmer writes a program.  Before completion, he is
+fired.  He sets up his own company and sells the program himself.  How many
+word-processing companies haven't come into being this way?
+
+The legal opinion on this:  "A computer program constitutes unacceptable
+plagiarism if it is on the average 70 percent identical to another program
+system in its problem-solving section" (Kassel State Court ruling of 21 May
+1981).
+
+About hardware.  There are these wonderful Apple II computers.  They are so
+wonderful that the yellow pirates from Taiwan can't help copying them for half
+the price.  The Apple copyright applies only to the EPROMs (electrically
+programmable read-only memory).  I buy that computer.  The dealer becomes hard
+of hearing when I ask about these EPROMs.  Why all these questions?  It's
+obvious that these are copies.  Everything's copied.  Legal?  Illegal?  It's
+all the same!
+
+And these are not isolated "chaotic" incidents.
+
+Future Music
+
+Creating a community that can be active in many different places and
+nevertheless can be part of a joint, creative process.
+
+Permitting electronic conferences by computer, making a single input or message
+instantaneously available to all other terminals.  The distance between the
+participants plays no role here.  In financial terms it does.  This is another
+major field to be cultivated for data telecommunications.  Fantasies in the
+making.
+
+Hacking should not be viewed as being solely linked to computers.  Wood too is
+hackable.  It is a description of a different manner of approaching technology. 
+A different use is tested experimentally.  In this area, children are by nature
+capable of colossal flights of fancy.  The "grown-up" world reacts with
+incomprehension.  Childish creativity is rejected as being "crazy."  If only
+people would let it be!  Learning by doing.  The knowledge developed in this
+way has a completely different quality than knowledge, for example, because it
+has emerged from practice.
+
+Model-building division:  There is a model helicopter by the Graupner company. 
+Bell 212 twin jet, two meters long, weighs four and a half kilograms.  Holds a
+load of two and a half kilograms.  Remote-control, for DM 2,500.  A legal note: 
+"If the 5 kg limit for model airplanes is exceeded, permission from the
+competent aviation authorities must be obtained for takeoffs and landings."
+
+What can be done?  "The Flying Robert is a model helicopter... from which a
+computer hangs.  The computer, which is being developed by the Bazoobis, has a
+sensor and--most importantly--a 'calculator with print-out capability.'  It has
+a roll of paper on which the measured value is noted every second.  The thing
+can be calibrated and sealed...  The Flying Robert is sent by remote-control
+over a smokestack, where it hovers for an hour.  The same thing can be done for
+radiation levels at nuclear power plants or noise levels near airports. 
+Citizens' initiative groups would finally have verifiable data."  [Footnote: 
+Mattias Horx, "Chip Generation," rororo 8118, 1984, DM 12.80, pp 125f]
+
+Other ideas from various readily available publications:
+
+You could fiddle with the computer and use it to disrupt various undertakings. 
+Startbahn West [disputed new runway at Frankfurt/Main Airport]?  Equip it with
+small cameras and use it for reconnaissance.  Equip it with squirt guns and use
+it for agitation.  The Telemichel has a lot of room!  As a resupply craft while
+occupying industrial facilities.  Or use it to seal up smokestacks?  Tip over
+construction cranes, after outfitting it with the necessary equipment.  Use
+teamwork to short-circuit high-tension wires.  Demolish/demodulate radio
+antennas, or a flying radio transmitter, jamming transmitter, loudspeaker.  The
+air knows no limits.
+
+Normal airplane models are cheaper.  Electric engine.  Solar cells.  Sun. 
+Flying time?  Fantasy in the making.
+
+Protect the forests?  Long nails inserted crossways in trees are not exactly
+the best thing for them, but they do keep chain saws from cutting them down.
+
+Test alarm systems?  Set off the broken-glass alarm?  At C&A [department
+store], all you need is to design a lucky charm, and the gong at the entrance
+sounds.  Practical, chic and it can be worn.
+
+The subject is not the big revolution, but rather the small, embarrassing
+scandals that create confusion and ulcers and spoil the desire to exercise
+power.  Anyone who knows any tricks should right to the "Lexicon of Subversive
+Fantasy," c/o Eichborn Verlag, SachsenhÑuser Landwehrweg 293, 6000 Frankfurt
+70.  Copy to the CCC.
+
+Rationalization
+
+Black & White criticism:
+
+"We reject these new techniques for increasing efficiency, because they lead to
+further unemployment, and we are dependent on 'income from non-self-employed
+work' to make a living."
+
+How much work does a human being need in order to live?  Or does he live to
+work?  What is work?
+
+Work is force times distance (old mechanics' saying).  What is force?  Kinetic
+energy and intellectual energy.  What is distance?  Movement.  Activity. 
+Dynamics.  And:  entropy.  [Footnote:  Jeremy Rifkin, "Entropy," 1982, Hoffmann
+& Campe, DM 30]
+
+Entropy says that where there is activity, energy is irretrievably consumed,
+rendering it no longer available for human use.  Our solar system will freeze
+to death.  What is true of our solar system also applies to the relatively
+closed system of Earth.  We should deal with energy sparingly.  Adapted to
+natural cycles, with optimally low-entropy structures.  Alienation thus becomes
+a central theme.  Labor is increasingly alienated the greater the distance--in
+terms of space, place and time--there is between the production and consumption
+of a product.  In order to consume little energy, it is advisable that the be
+located close to the residential areas.  Rush hour is a nerve-wracking, energy-
+consuming and accident-prone product of our sharply alienated "work world."
+
+And so the masses shouldn't go to work at the same time on the same days.
+
+Individual working hours are called for even more than ever.  And why not work
+at home?  Will people miss the human contact with co-workers?  How human is
+contact on the assembly line, in piecework, etc.?  Is it even capable of being
+human?  There are jobs that really should not exist.  And if we economize these
+job possibilities away, then it would be best if they simply disappear.
+
+"For some time now it has begun to look as if we are no longer working in order
+to live, but rather having to structure our lives in such a way that we have
+enough work."  (Hans A. Pestalozzi)
+
+Counter-Realization
+
+Black & White criticism:  "The hackers have simply accepted that everything
+that is coming is inevitable, and they are trying to find a comfortable niche
+in it."
+
+Nothing is inevitable.  No input, no output.  I am content with the fact that I
+react.  A passive role.  Supplemented with Sysiphos work.
+
+"... in every society, those asking questions have the key to power, not those
+with the answers.  True power is with those who set up the structure that the
+others must contemplate, because they define what is available and what is not,
+what is recorded and what is forgotten."  [Footnote:  Jaques Vallee, "Computer
+Networks," 1984, rororo 8101, DM 12.80, p 115]
+
+Why are there no alternative software producers?  Are niches so abhorrent?
+
+Let me make it perfectly clear:  I am for the computerization of our planet. 
+The problems we are facing concern the earth as a whole.  Global, alternative
+networking must be massively advanced.  A present-day computer has a memory
+capacity of 64 kilos of bytes.  Multiplied by x-number of users worldwide, and
+you have an unbeatable potential for creativity.  The melting pot of
+alternative, green, lavender, checkered, etc. itself offers elbow room where
+innovative ideas are developing en masse.  The only question is:  Where is the
+application in practice?
+
+The computer is an extremely universal tool.  I can make it do many boring,
+monotonous administrative functions.  Word processing alone offers completely
+new possibilities for dealing with words.  Everything can be combined with
+graphics and music.  Data telecommunications.  Things are copied, simulated and
+stored.  Everything can be printed out once or umpteen times.  Color.  Games. 
+Control.  Manipulation.  Very small computer-controlled work stations can be
+set up.  Here, the ideas can be (self-) realized.  Sales and marketing can be
+done through further expanded telecommunications networks.
+
+Why not try to take away the professionals' livelihood?  Niches can be very
+flexible.  There are so many awful programs, and rarely good advice.  And
+projects lack the money before and after.
+
+"Blue Bazoobi":  The project builds computers.  Small portable terminals to
+control air pressure valves.  DM 20,000 a piece.  Sold to Singapore, Brazil and
+China.  The market niche is an area of application that is not feasible for the
+pros, due to a lack of large volume.  There are fifty copies right now.  The
+"Flying Robert" project will be financed with the money earned.  So things are
+coming along.  A broad field of activity is opening up.
+
+Effective immediately, the CCC is offering advice in all situations for the
+Apple II computer.  Address for complements and the like:  TAZ Hamburg,
+Apfelmus Department, Nernstweg 32, 2000 Hamburg 50, Wolfgang CCC, Kraut & RÅben
+Department.
+
+[p 45:  Article by "Wau"]
+
+Practical Note
+
+Data processing is slowly but surely entering our everyday life.  It is
+difficult to resist it.  A couple of practical notes:  Never release data if it
+does not immediately seem reasonable to you.  Even then, be careful.  Asking
+questions is free, but there must be time for it.  Make it clear that your data
+is very personal, and ask how the people who are requesting your data handle
+data protection.  Cancel your direct-debit order.  Think about what one
+programmer at the electricity company could do with a couple million automatic
+debit orders.  Don't get cable.  Keep your own data in order and do not let
+someone else do it, even if it is more comfortable that way.
+
+[p 46:  Article from GELSENKIRCHENER STADTZEITUNG]
+
+Burglar Alarm
+
+There were several questions about the burglar alarm, so here is the sketch
+again.
+
+The original dimensions of 60 x 80 mm should be adhered to rather closely.  The
+copper wire (naturally insulated, otherwise it would be no good) can be found
+in any electronics store, as can the capacitor.  With the copper wire arranged
+as above, 30-40 picofarads cause a so-called field deviation within the
+electronic fields between the bows, which is registered via the electronic
+circuits.  The alarm is then triggered by way of a relay, and the detective is
+there.  So far, so good.
+
+The copper wire is soldered to the ends of the contacts.  While soldering, be
+careful not to destroy the capacitor.  It would be great to have small-scale
+mass production of this or other subversive products.
+
+[p 47:  Article by "Wolfgang"]
+
+The Future:  Entropy and Yeast Dough
+
+Yeast dough, a so-called raising agent.  The dough must be handled carefully. 
+A cool draft of air and it falls.  The nice swelling action turns into the
+opposite.  Chaos among the bacteria!  (Yeast is a fungus, note from
+headquarters.)
+
+Institutions:  Objects that permanently grow.  Rising agent:  Money.  The
+swelling process, shaken by crises, can drag on for decades.  Until the self-
+sown storm is too powerful.  The system TILT.  Chaos among the bureaucrats!
+
+Entropy says that the amount of energy in the universe is always constant. 
+Nothing can be added, nothing used up.  Energy changes its "manifestation."  It
+transforms itself from a state available to man to one not available to him.
+
+All of our environmental pollution is a manifestation of our high-entropy
+economy.  "In the three summer months alone, the United States consumes more
+electricity for air conditioning than the population of the People's Republic
+of China uses for its overall needs for the entire year.  And China has four
+times as many people."  [Footnote:  Jeremy Rifkin, "Entropy," Hoffmann & Campe
+82, p 134]
+
+Everywhere that there is activity, energy is being transformed.  The available
+supplies are evaporating appreciably.  Technology is going astray:  nuclear
+technology, fusion technology, genetic engineering...
+
+All systems where the energy input is greater than the output:  pacemaker for
+cancer!
+
+The oven is cold!
+
+The dough has fallen.  Only rock-hard bread is possible now.  We have to make
+do with what we have.  Or do we?  A new dough?  With a significantly different
+recipe?
+
+Are complex systems capable of innovation?
+
+Of course not.  A ridiculous example:  Our diligent scientists are promoting
+fusion technology as the solution to all our energy problems.  The bare facts
+point to another conclusion.  The deuterium-tritium reactor needs tritium
+molecules.  Tritium is obtained from lithium, an element that is as rare as
+uranium.  Thus, limitless economizing is not possible.  Similarly necessary
+substances, such as niobium and vanadium, are becoming more scarce even today. 
+To say nothing of copper.
+
+And the culmination of innovation potential:  The hydrogen-boron reactor,
+filled with sea water, has a reaction temperature of three billion degrees
+Celsius.  Just let that number roll slowly off your tongue!  There is no matter
+that could even come close to standing up to that temperature.  The deuterium-
+tritium reactor needs only 100 million degrees Celsius.  Nothing more practical
+is possible.  "All applications of nuclear technology appear to him as if one
+were using a chain saw to cut butter."  [Footnote:  Rifken, p 129]  Every
+change in complex systems will by necessity cause changes in other places and
+at different times.
+
+The degree or the size of the complexity is critical in determining:
+-  the effect of only one change, or of many changes;
+-  the momentum of these changes, which, for example, are in turn the cause of
+   further changes, etc...
+
+Very interesting "autonomous," cumulative feedback processes can be set in
+motion here.
+
+The gaps discovered by hackers are naturally stopped up.  How?  With knitting
+yarn.  That is, hardware, software and human beings are transformed, and thus
+energy is used.
+
+Since the earth is a relatively closed system (aside from solar energy, nothing
+significantly is added), the following applies in particular to our planet: 
+"In a closed system, material entropy must ultimately achieve its maximum." 
+[Footnote:  Rifkin, p 50]
+
+It is precisely the many changes in all institutions that are causing an
+increase in energy consumption.  On payday, the co$t then?  Should we sell this breach
+of security to the Bundespost?  We could, as is normal in industry, "hack" DM
+100,000 or more and then sell the Bundespost consultation on this problem for a
+certain percentage of the money.  Or get free, lifetime telephone service for
+the CCC or something like that.  The Bundespost had to pay for its gross
+negligence.
+
+In both cases, however, the price would have been silence.  Otherwise, the
+concentrated rage of the postal authorities would have been forthcoming. 
+Consequently, perhaps half a dozen officials would have tried to do something
+to the CCC.
+
+But the CCC wanted enlightenment about the risks of this new system.  To this
+end, the finance transaction had to be made public.  Fine, but who should push
+the starting button for the money transfer?  After all, it is an infringement
+like a parking ticket, although more expensive:  a DM 50,000 fine.  Will the
+data protection commissioner do it?  He probably would have taken advantage of
+the opportunity and attempted to achieve an improvement by official means.
+
+A politician?  Perhaps.  But what if he leaks the story?  There remained only
+one option:  Do it ourselves, and abrogate our criminal liability by going
+public with it.  A week later, the attempt failed, since the FTZ had in the
+meantime closed off free access to its connection.
+
+Hackers as Data Protection Specialists
+
+Several weeks later, Wau gave a presentation at a conference of data protection
+specialists in Cologne:  BTX--El Dorado for Hackers.  Cologne was a sea of pin-
+stripes, and Wau looked like a parrot in the midst of it all.  Despite their
+initial distance, the audience was impressed by his presentation.  Only the
+representative of the Bundespost felt that he was hitting below the belt, and
+that he did not intend to address those issues.  That was dismissed with
+laughter, since the presentation depicted a series of program bugs drastically
+and in three dimensions.  There is a bug in the sending of electronic mail. 
+The sendlled this
+because the people who flashed on it are coincidentally named Rivest-Shamir-
+Adleman.  Clever as mathematicians are, it occurred to them that you could take
+a text like DAS IST JA ZUM KOTZEN [THAT'S DISGUSTING] and break it down into
+ASCII characters, and thus end up with what mathematicians like best:  numbers! 
+(n e N, 0"n" = 255) 68 65 83 32 73 83 84 32 74 65 32 90 85 77 32 79 84 90 69 78
+
+These were then combined into groups of 6 characters:  686583 327383 843274
+653290 857732 798490 697800.
+
+The key to encoding the message, called n, is generally making it more
+difficult to find the product of two primary numbers.  If you take 98415109
+(which is a primary number) as a key, then you can start encoding the above
+block:
+(686583 * 686583 * 686583) mod 98415109 = encoded cryptoblock.
+
+In order to decode this block, you need the corresponding key.  It is called d,
+for decryption.  Decoding as well involves major calculation:
+For n = 98415109, d = 63196467.
+(Encoded cryptoblock ** 63196467) mod 98415109 = 686583.
+
+As even non-mathematicians recognize immediately, the trick of the matter is
+the two numbers n and d.
+
+They are related as follows:
+n is the product of two large primary numbers p and q (n = p * q);
+d is determined from p and q:  d = (2 * (p-1) * (q-1) + 1)/3
+
+Although n is known, p and q remain secret.  If n is big enough (around 200
+digits), it is more or less impossible to determine p and q.  With a value for
+n that is 300 digits long, it would theoretically take the NASA computer 600
+years to figure out what p and q are.
+
+In the example above, p = 7151 and q = 13259.  These primary numbers are
+subject to further restrictions that must be taken into account if the RSA
+nonsense is to run:
+1. Neither p-1 nor q-1 may be evenly divisible by 3.
+2. Either p-1 or q-1 must be a large primary number factor.
+3. Dividing p by q must yield a complex fraction, thus not 2/3, 3/4, etc.
+
+Taking points 2 and 3 into account means finding a qualitatively high-value n
+that is difficult to decode.
+
+Now to the programs:
+Program 1:  Encoding messages
+Program 2:  Decoding messages
+Program 3:  Determining n and d
+10 DEFDBL C,M,N:DIM M(100):CHARACTER PROBLOCK=3
+20 LINE INPUT"Name of the crypto output file:";OUT
+25 OPEN"O",1,OUT
+30 INPUT"Public key of the receiver (Test condition at "RETURN<=94815109";N
+40 IF N=0 THEN N=94815109
+60 PRINT"Input message text or NNNN at beginning of line to end"
+70 W=W+1:PRINT USING "";W;:LINE INPUT".:";M
+71 IF LEFT(M,4)="NNNN" OR LEFT(M,4)="nnnn" THEN CLOSE:PRINT:PRINT
+"Cryptogram under file: "OUT;" stored.":PRINT:PRINT:END
+80 M=M+CHR(13):L=LEN(M):Q=INT(L/CHARACTER PROBLOCK)
+90 R=L-Q*CHARACTER PROBLOCK
+100 IF R<0 THEN M=M+CHR(0):GOTO 80
+110 FOR I=0 TO Q-1
+120 M(I)=0
+130 FOR J=1 TO CHARACTER PROBLOCK
+140 A=ASC(MID(M,3*I+J,1))
+150 M(I)=M(I)*100
+160 M(I)=M(I)+A
+170 NEXT J
+180 NEXT I
+185 PRINT:PRINT"Cryptogram:"PRINT
+190 FOR I=0 TO Q-1
+200 M = M(I)
+210 C=M*M:C=C-INT(C/N)*N:C=C*M:C=C-INT(C/N)*N
+220 PRINT'1,USING "";C
+225 PRINT USING "";C
+230 NEXT I
+235 PRINT:PRINT
+240 GOTO 70
+
+10 DEFDBL C,D,M,N
+11 CHARACTER PROBLOCK=3
+20 INPUT"Own Public Key (Test = 0+CR = 94815109) : ";N
+30 IF N=0 THEN N=94815109
+40 INPUT"Own Public Key (Test = 0+CR = 63196467) : ";D
+50 IF D=0 THEN D=63196467
+51 LINE INPUT"File name for decoded text : ";OUT
+52 OPEN"O",2,OUT
+60 LINE INPUT"Cryptogram from F<ile or M<anual : ";QUER
+70 IF QUER="M" OR QUER="m" THEN MANUAL=-1:GOTO 90 ELSE MANUAL=0
+80 LINE INPUT"File name for crypto file " ";FILE: OPEN"I",1,FILE
+81 IF NOT (MANUAL) THEN PRINT:PRINT"Decoded text:":PRINT:PRINT
+90 IF MANUAL THEN INPUT"Cryptoblock : ";C ELSE IF EOF(1) THEN CLOSE:PRINT"Text
+end.":PRINT:PRINT:END ELSE INPUT'1,C
+100 D1=D:M=1
+110 IF D1/2 = INT(D1/2) THEN 130
+120 M=M*C:M=M-INT(M/N)*N
+130 C=C*C:C=C-INT(C/N)*N
+140 D1=INT(D1/2):IF D1 < 0 THEN 110
+150 M=STR(M):M=RIGHT(M,LEN(M)-1):'blank start with own interpr.
+160 LX=LEN(M):IF (LX/2)"<INT(LX/2) THEN M="0"+M:GOTO 160
+170 FOR T=1 TO CHARACTER PROBLOCK
+180                               CHARACTER=MID(M,1+(T1)*2,2):CHARACTER=
+CHR(VAL(CHARACTER))
+190 PRINT CHARACTER;
+200 PRINT'2,CHARACTER;
+210 NEXT T
+220 GOTO 90
+
+5 RANDOMIZE
+10 PRINT"Program for determining public and secret keys"
+PRINT"=========================================================================
+30 PRINT"To determine the secret key you need 2 (known only to you)"
+40 PRINT"primary numbers p and q.  The following program consists of 2 parts:"
+50 PRINT"Part 1 searches in the range of a randomly chosen number for the next"
+60 PRINT"primary number that is suitable for p and q."
+70 PRINT"Part 2 determines from the p and q located in the this way the secret
+and public"
+80 PRINT"keys."
+90 PRINT
+100 PRINT"Start Part 1":PRINT
+110 DEFDBL N,P,Q,R,S,X,Y:K=10
+120 INPUT"Number to be analyzed (0 for transition to program part 2) : ";N
+130 IF N=0 THEN 280
+140 IF N<99999999 THEN PRINT"Please select a smaller value":GOTO 120
+150 IF N/2=INT(N/2) THEN N=N-1
+160 FOR I=1 TO K
+170 X=2+INT((N-2)*RND(0))
+180 Y=1:P=N-1
+190 IF P/2=INT(P/2) THEN 210
+200 Y=Y*X:Y=Y-INT(Y/N)*N
+210 X=X*X:X=X-INT(X/N)*N
+220 P=INT(P/2):IF P<0 THEN 190
+230 IF Y"<1 THEN 250
+240 NEXT I
+250 IF Y=1 THEN PRINT N;"is suitable as primary number for p or q":GOTO 120
+260 PRINT"No suitable number found.  Test number now";N:N=N-2:GOTO 160
+270 '
+280 PRINT"Start Part 2":PRINT
+290 INPUT"What value had you determined for p : ";P
+300 INPUT"What value had you determined for q : ";Q
+310 PRINT
+320 PRINT"Your public key is : ";P*Q
+330 PRINT"Your secret key is : ";(2*(P-1)*(Q-1)+1)/3
+Ralf translates for MS-DOS from BYTE.
+
+[pp 54-55:  Article by Maxin Holz]
+
+Let Them Do Our Dirty Work
+
+The headline was "joint production," a stylish description of the flight of
+industry to countries with low wages and a peaceful workforce, and of disregard
+for the environment.  Now that the office of the future is upon us, the U.S.
+companies want others to have a part in it as well.  Encouraged by promises of
+drastic reductions in cost through the remote transmission of information in
+the course of mere seconds, industry analysts and foreign political figures are
+formulating the idea of a new marriage of convenience between American business
+and poor nations.  Although the "joint office" is not entirely new, industry
+observers are now predicting the expansion of data input centers to poor
+countries within a few years.
+
+Before the new satellite technology was available, overseas branches could
+profitably process only low-priority information that did not have to be turned
+over quickly, such as order and shipping lists.  The best-known example of the
+new trend is the American Airlines data processing center in Barbados.  Every
+morning, American Airlines flies a planeload full of its ticket carbons to
+Barbados, where data input workers input information at wages of $1.50 to $3.00
+an hour.  The information is then returned electronically to the American
+Airlines computer in the United States.
+
+The U.S. companies were drawn by low wages, cheap office space and extremely
+low taxes and surcharges, for which they were invited by the governments in
+places such as Singapore, the Philippines and the Caribbean.  The preferred
+goals for overseas offices are English-speaking countries like Barbados, in
+addition to China, another country that is competing for jobs in information
+processing using satellite communications, and as a special enticement can
+offer its disciplined workforce, which earns the equivalent of $7 a week at a
+precision rate of 99.5%
+
+When explaining the advantages accrued to the receiving countries from overseas
+investment, the chauvinistic presumptuousness of the economic press is exceeded
+only by the self-serving optimism and short-sightedness of the governments that
+are competing with one another for American investments.  Thus, NEWSWEEK
+declared that since the products of the companies investing in the Caribbean
+are prohibitively expensive for the people there, they "would do best to
+produce goods for sale in the United States."  Now the inhabitants of Barbados
+may also perform services that are meaningless to their own living situation. 
+(What generosity by U.S. companies, which are giving the people of Barbados
+data processing so that Americans can take airplane trips.)  The same article
+explains that there is no longer a significant reservoir of unskilled laborers
+in the United States (what about the unemployment rate of 40% among young
+blacks?), while "in many underdeveloped countries there are enormous surpluses
+of unskilled labor."  This theory of "give them our dirty work" attempts to
+identify reasonable grounds for the distribution of labor that permits the
+citizens of the United States to live much better than the vast majority of the
+rest of the world.
+
+In competing for investments, foreign governments and chambers of commerce are
+shameless in their claims made to the American business community concerning
+the paltry demands and high productivity of their population.  Government heads
+justify tax exemptions by saying that they need foreign currency and the jobs
+offered by the multinationals in order to raise the living standards in their
+countries.  Moreover, the argument goes, the expanding technology accompanying
+the overseas offices helps familiarize the local workforce with the computer,
+thus closing the technological gap between industrial countries and developing
+countries.
+
+The possibility that such rose-colored projections will be fulfilled by
+satellite-based data processing is extremely small, and that is even in the
+unlikely event that unemployment will decrease for a time.  The so-called
+"surplus" of unskilled workers in poor countries has resulted primarily from
+past efforts resulting from investment policy, which were justified with the
+same faulty logic.  From the foreign investments that were poured into the
+"underdeveloped" countries after the Second World War, it was assumed that they
+would lead to an international distribution of labor that would be beneficial
+to all.  Farmers were driven off the land in order to make room for the modern
+forms of exploitation preferred by multinational companies and local
+governments.  While the multinationals blossomed, countries that had at one
+time been agriculturally self-sufficient became dependent on developed
+countries for food, and found themselves subject to a world market on which
+they could exercise no influence.  Far from promoting regional industry and
+agriculture, the foreign investments resulted in dependency on the
+multinationals and on the markets dominated by them.  This in turn led to a
+gigantic growth in debt owed to multinational banks and international credit
+institutions controlled by the United States and its allies.  With the help of
+these institutions, the developed countries tyrannically exert their influence
+on the economic policy of the receiving countries.
+
+The overseas office can only reinforce this phenomenon.  Data input centers in
+Barbados cannot bridge any technological gaps.  The exported office jobs
+primarily involve the most primitive and strenuous computer work, and their
+elimination by automation will only be a question of time.  A country like
+Barbados can never gain an independent place in a market dominated by
+multinational giants.  Even under the best of conditions, a practical
+application of computer technology to local problems would be extremely
+expensive, and it would represent a disastrous waste of resources.
+
+The cultural consequences of foreign investments could be at least as painful
+as the directly economic ones.  The office environment (furnishings, clothing,
+architecture) promotes a culture with an emphasis on material values, on a
+maximum awareness of time, and on neutral, sterile modernity.  Regardless of
+how finance centers present themselves throughout the world, they generate the
+unifying effect of office culture.  An ever-smaller elite would actually be
+able to work its way up to the comforts of merchandise heaven as glorified by
+office culture.  Many more people, however, will fall victim to the plundering
+of the country and the devaluation of their traditions in the hands of
+multinational capital.
+
+[pp 55-56:  Unattributed article]
+
+Down in the Valley
+
+Mail Wars
+
+After the top management of "Tandem" announced the hiring and wage freeze in
+November 1982, I arrived at my job the next day to find an electronically
+transmitted message that had been sent by a courageous technician who worked
+for a distant branch of the company.  The message protested the wage and hiring
+freeze--such measures were disgraceful and unjust.  The electronic letter--and
+the mail network--allows direct connections between most employees, even if
+they are separated by thousands of Hwhat is not,
+what is recorded and what is forgotten."  [Footnote:  Jaques Vallee, "Computer
+Networks," 1984, rororo 8101, DM 12.80, p 115]
+
+Why are there no alternative software producers?  Are niches so abhorrent?
+
+Let me make it perfectly clear:  I am for the computerization of our planet. 
+The problems we are facing concern the earth as a whole.  Global, alternative
+networking must be massively advanced.  A present-day computer has a memory
+capacity of 64 kilos of bytes.  Multiplied by x-number of users worldwide, and
+you have an unbeatable potential for creativity.  The melting pot of
+alternative, green, lavender, checkered, etc. itself offers elbow room where
+innovative ideas are developing en masse.  The only question is:  Where is the
+application in practice?
+
+The computer is an extremely universal tool.  I can make it do many boring,
+monotonous administrative functions.  Word processing alone offers completely
+new possibilities for dealing with words.  Everything can be combined with
+graphics and music.  Data telecommunications.  Things are copied, simulated and
+stored.  Everything can be printed out once or umpteen times.  Color.  Games. 
+Control.  Manipulation.  Very small computer-controlled work stations can be
+set up.  Here, the ideas can be (self-) realized.  Sales and marketing can be
+done through further expanded telecommunications networks.
+
+Why not try to take away the professionals' livelihood?  Niches can be very
+flexible.  There are so many awful programs, and rarely good advice.  And
+projects lack the money before and after.
+
+"Blue Bazoobi":  The project builds computers.  Small portable terminals to
+control air pressure valves.  DM 20,000 a piece.  Sold to Singapore, Brazil and
+China.  The market niche is an area of application that is not feasible for the
+pros, due to a lack of large volume.  There are fifty copies right now.  The
+"Flying Robert" project will be financed with the money earned.  So things are
+coming along.  A broad field of activity is opening up.
+
+Effective immediately, the CCC is offering advice in all situations for the
+Apple II computer.  Address for complements and the like:  TAZ Hamburg,
+Apfelmus Department, Nernstweg 32, 2000 Hamburg 50, Wolfgang CCC, Kraut & RÅben
+Department.
+
+[p 45:  Article by "Wau"]
+
+Practical Note
+
+Data processing is slowly but surely entering our everyday life.  It is
+difficult to resist it.  A couple of practical notes:  Never release data if it
+does not immediately seem reasonable to you.  Even then, be careful.  Asking
+questions is free, but there must be time for it.  Make it clear that your data
+is very personal, and ask how the people who are requesting your data handle
+data protection.  Cancel your direct-debit order.  Think about what one
+programmer at the electricity company could do with a couple million automatic
+debit orders.  Don't get cable.  Keep your own data in order and do not let
+someone else do it, even if it is more comfortable that way.
+
+[p 46:  Article from GELSENKIRCHENER STADTZEITUNG]
+
+Burglar Alarm
+
+There were several questions about the burglar alarm, so here is the sketch
+again.
+
+The original dimensions of 60 x 80 mm should be adhered to rather closely.  The
+copper wire (naturally insulated, otherwise it would be no good) can be found
+in any electronics store, as can the capacitor.  With the copper wire arranged
+as above, 30-40 picofarads cause a so-called field deviation within the
+electronic fields between the bows, which is registered via the electronic
+circuits.  The alarm is then triggered by way of a relay, and the detective is
+there.  So far, so good.
+
+The copper wire is soldered to the ends of the contacts.  While soldering, be
+careful not to destroy the capacitor.  It would be great to have small-scale
+mass production of this or other subversive products.
+
+[p 47:  Article by "Wolfgang"]
+
+The Future:  Entropy and Yeast Dough
+
+Yeast dough, a so-called raising agent.  The dough must be handled carefully. 
+A cool draft of air and it falls.  The nice swelling action turns into the
+opposite.  Chaos among the bacteria!  (Yeast is a fungus, note from
+headquarters.)
+
+Institutions:  Objects that permanently grow.  Rising agent:  Money.  The
+swelling process, shaken by crises, can drag on for decades.  Until the self-
+sown storm is too powerful.  The system TILT.  Chaos among the bureaucrats!
+
+Entropy says that the amount of energy in the universe is always constant. 
+Nothing can be added, nothing used up.  Energy changes its "manifestation."  It
+transforms itself from a state available to man to one not available to him.
+
+All of our environmental pollution is a manifestation of our high-entropy
+economy.  "In the three summer months alone, the United States consumes more
+electricity for air conditioning than the population of the People's Republic
+of China uses for its overall needs for the entire year.  And China has four
+times as many people."  [Footnote:  Jeremy Rifkin, "Entropy," Hoffmann & Campe
+82, p 134]
+
+Everywhere that there is activity, energy is being transformed.  The available
+supplies are evaporating appreciably.  Technology is going astray:  nuclear
+technology, fusion technology, genetic engineering...
+
+All systems where the energy input is greater than the output:  pacemaker for
+cancer!
+
+The oven is cold!
+
+The dough has fallen.  Only rock-hard bread is possible now.  We have to make
+do with what we have.  Or do we?  A new dough?  With a significantly different
+recipe?
+
+Are complex systems capable of innovation?
+
+Of course not.  A ridiculous example:  Our diligent scientists are promoting
+fusion technology as the solution to all our energy problems.  The bare facts
+point to another conclusion.  The deuterium-tritium reactor needs tritium
+molecules.  Tritium is obtained from lithium, an element that is as rare as
+uranium.  Thus, limitless economizing is not possible.  Similarly necessary
+substances, such as niobium and vanadium, are becoming more scarce even today. 
+To say nothing of copper.
+
+And the culmination of innovation potential:  The hydrogen-boron reactor,
+filled with sea water, has a reaction temperature of three billion degrees
+Celsius.  Just let that number roll slowly off your tongue!  There is no matter
+that could even come close to standing up to that temperature.  The deuterium-
+tritium reactor needs only 100 million degrees Celsius.  Nothing more practical
+is possible.  "All applications of nuclear technology appear to him as if one
+were using a chain saw to cut butter."  [Footnote:  Rifken, p 129]  Every
+change in complex systems will by necessity cause changes in other places and
+at different times.
+
+The degree or the size of the complexity is critical in determining:
+-  the effect of only one change, or of many changes;
+-  the momentum of these changes, which, for example, are in turn the cause of
+   further changes, etc...
+
+Very interesting "autonomous," cumulative feedback processes can be set in
+motion here.
+
+The gaps discovered by hackers are naturally stopped up.  How?  With knitting
+yarn.  That is, hardware, software and human beings are transformed, and thus
+energy is used.
+
+Since the earth is a relatively closed system (aside from solar energy, nothing
+significantly is added), the following applies in particular to our planet: 
+"In a closed system, material entropy must ultimately achieve its maximum." 
+[Footnote:  Rifkin, p 50]
+
+It is precisely the many changes in all institutions that are causing an
+increase in energy consumption.  On payday, the co$t then?  Should we sell this breach
+of security to the Bundespost?  We could, as is normal in industry, "hack" DM
+100,000 or more and then sell the Bundespost consultation on this problem for a
+certain percentage of the money.  Or get free, lifetime telephone service for
+the CCC or something like that.  The Bundespost had to pay for its gross
+negligence.
+
+In both cases, however, the price would have been silence.  Otherwise, the
+concentrated rage of the postal authorities would have been forthcoming. 
+Consequently, perhaps half a dozen officials would have tried to do something
+to the CCC.
+
+But the CCC wanted enlightenment about the risks of this new system.  To this
+end, the finance transaction had to be made public.  Fine, but who should push
+the starting button for the money transfer?  After all, it is an infringement
+like a parking ticket, although more expensive:  a DM 50,000 fine.  Will the
+data protection commissioner do it?  He probably would have taken advantage of
+the opportunity and attempted to achieve an improvement by official means.
+
+A politician?  Perhaps.  But what if he leaks the story?  There remained only
+one option:  Do it ourselves, and abrogate our criminal liability by going
+public with it.  A week later, the attempt failed, since the FTZ had in the
+meantime closed off free access to its connection.
+
+Hackers as Data Protection Specialists
+
+Several weeks later, Wau gave a presentation at a conference of data protection
+specialists in Cologne:  BTX--El Dorado for Hackers.  Cologne was a sea of pin-
+stripes, and Wau looked like a parrot in the midst of it all.  Despite their
+initial distance, the audience was impressed by his presentation.  Only the
+representative of the Bundespost felt that he was hitting below the belt, and
+that he did not intend to address those issues.  That was dismissed with
+laughter, since the presentation depicted a series of program bugs drastically
+and in three dimensions.  There is a bug in the sending of electronic mail. 
+The sendlled this
+because the people who flashed on it are coincidentally named Rivest-Shamir-
+Adleman.  Clever as mathematicians are, it occurred to them that you could take
+a text like DAS IST JA ZUM KOTZEN [THAT'S DISGUSTING] and break it down into
+TX system spits out internal system information.  With a
+little luck, connection code words and secret passwords can be detected in this
+way.  "Nonsense," said the Bundespost representative.  And to the offer of
+cooperation came only the response, "First you have to get serious."  It is
+unclear whether the CCC succeeded in doing so.  At the very least, the BTX
+system finally spit out the connection code word and secret password of the
+Hamburger Sparkasse after a number of tries with the well-known system bug. 
+Thus, it became possible to carry out the presentation planned for the FTZ with
+the Sparkasse instead.
+
+Almost everything went as planned.  Over night, in 12 hours and 59 minutes, a
+good DM 134,000 was raised.  With a portabfü ú“∆@%¡’—ï»Å—°îÅ¡ÖùîÉen run in a
+daily newspaper, and a meeting of two dozen people from all over West Germany
+then took place in Berlin.  We then decided to keep in touch and exchange
+experiences.  The idea was simply to put together a magazine, but at that point
+it was all too vague, and it didn't come off.  Next, contacts with the United
+States were established, with Cheshire Catalyst (the "king" of U.S. hackers,
+Ed.) and with his magazine TAP, which a bunch of people here in West Germany
+already knew about and subscribed to.  At the Telecom in the fall of 1983, I
+met him personally and wrote a two-page article about him in a daily newspaper. 
+And this two-page article elicited a great deal of response.  By the end of the
+year, things had progressed far enough to set up a magazine.  Previously, the
+idea was to exchange all information by floppy disk, but everything was
+incompatible, and it had no purpose.  The magazine was announced around the
+beginning of the year, and we received 100 replies within one week.  And so to
+us in Hamburg, it was obvious:  If 100 people want it, then it has to be done. 
+In March, the first issue was finally finished.  Once the first and second
+issues were out, there was a veritable flood of letters.  The amount of mail
+was equivalent to placing both my hands on end.
+
+[Question]  How many subscriptions does the magazine have?
+
+[Answer]  We took the course that whoever writes should get information,
+regardless of whether they send money in.  The number of subscriptions
+fluctuates somewhere over 200.
+
+[Question]  How do your finances look right now?
+
+[Answer]  Terrible!  The production costs are around 10 pfennigs per copy, for
+both sides of a DIN A3 page.  On the other hand, the most expensive thing is
+postage, 50 pfennigs a piece.  For each copy there are three copies that are
+not paid for, that we simply send out, as a sample or in response to a request
+with no money enclosed.  It is in fact financed by the skin of our teeth, but
+we do hope that a number of people are willing to pay for it.  If money comes
+in, then we can continue.
+
+[Question]  And of the 200 subscriptions has each one paid around DM 30?
+
+[Answer]  More or less.  They came in with the full amount, a couple sent more
+than that, but unfortunately it was fewer than we had hoped.  It costs about DM
+1000 to produce one issue of DATENSCHLEUDER.
+
+[Question]  How long will people receive DATENSCHLEUDER for their DM 30?
+
+[Answer]  One Chaos year.  That is effectively around one year, with around 10
+issues.  You definitely have to give our address, or they'll come beating your
+door down for that.
+
+[Question]  How many regular members do you have now?
+
+[Answer]  About the membership structure--it's rather open and free.  Everyone
+who has information for us simply contributes it, whether he has a subscription
+or simply receives DATENSCHLEUDER, or even if he knows nothing about
+DATENSCHLEUDER.  There are people who are working on the modem layout, and we
+are producing and marketing motherboards, for example.  And then we do
+DATENSCHLEUDER, and also do communication via computer.  It is simply an open
+structure, where anyone who feels like it can join in and leave at any time. 
+But we are thinking about whether we should impose organizational structures on
+the whole thing.  There are a couple of external areas where we are simply
+encountering problems.  But on the other hand, we basically like this open
+structure.  It's a dilemma.
+
+[Question]  But surely you can provide an approximate number?
+
+[Answer]  If we approach it in terms of subscriptions, we come up with more
+than 200, of which around 30 are in Hamburg.  But that's very fluid.  Should I
+count a graphic artist who does a couple of pictures for DATENSCHLEUDER as a
+member?  We don't look at it that narrowly.  Somebody comes along, finds it
+interesting, and joins in.  That's also how it is at our meetings, which we
+hold once a week at a bar here in Hamburg.  We always get different people
+there, it's just a regular meeting base.  On the other hand, we generally meet
+once a month to exchange information.
+
+[Question]  What kind of people are involved?
+
+[Answer]  It ranges from pilots to a metalworker, people who run their own
+shops to unemployed people and students.  They are between 16 and 35.  No one
+is older than that.
+
+[Question]  What is your assessment of the legal status of your activities?
+
+[Answer]  We just don't like being forced into any corner.  Now people are
+saying that it's all criminal, breaking into data base
+together with the other supervisors.  However, Al's fate was left hanging.  As
+we left the meeting, one of my colleagues commented, "I'm not satisfied with
+the number of corpses."
+
+Al and the production head were soon thereafter demoted and privately urged to
+seek employment elsewhere.  They were gone within a couple of months.  Several
+days after the meeting, several computer programs that are used in manual
+production were sabotaged.  It appeared that the supervisors who were fired had
+computers at home, and thus still had access to the computer through the
+telephone lines.
+
+At the end of the meetings with the honchos, the head of our company grumbled
+about the "animosity" that had developed in our department.  As if capitalism
+is not based on "animosity"!
+
+While "soft management" can be used by employees to their own benefit in
+situations like the one above, we should keep in mind that it is not simply a
+"gift" from our superiors.  The less authoritarian style of leadership exists
+because many companies regard it as a more effective method for gaining the
+cooperation of the workers in order to thus achieve management goals.  But it
+is regarded as effective only in terms of the opposition, both passive and
+active, by workers to openly authoritarian methods of management.  Soft
+management does not--cannot--eliminate the very real conflict of interest
+between workers and employers.  The fact remains that workers neither manage
+the operation nor have control over the capital.  This makes conflict
+unavoidable.
+
+[pp 59-60:  Article from PARANOIA CITY LADEN]
+
+Bolo'Bolo
+
+Departure
+
+Seven-thirty in the morning, 25 March 1983, on the number 32 bus.  It is
+raining and it is cold, later it will snow.  There are empty seats, and so I
+sit down.  I feel the wetness through my shoes and pants.  I see the calm,
+composed faces.  A young woman suppresses a yawn, draws the corners of her
+mouth down.  "Nordstrasse."  Several passengers get off and move away briskly. 
+Once again, I am struck with this feeling of alienation.  "What's it all
+about?"  "Why I am going along with it?"  "How much longer?"  Revulsion is
+building up in my chest.  The everyday machine once again has me in its grip. 
+I am moved inexorably towards my job.  Scarcely wrenched from a sound sleep, I
+am again helplessly sitting in the workforce transport machine.
+
+I imagine taking the bus to the terminus and then beyond:  through Austria,
+Yugoslavia, Turkey, Syria, Iran... to India, Malaya.  During the trip, the bus
+changes little by little; it is repainted, repaired, converted, equipped with
+beds.  The passengers are transformed into a close-knit community.  They work
+as we go in order to get fuel, the replacement parts and food.  They tell their
+stories.  They act against the everyday machine using diverse means:  refusing
+to produce, sabotage, intentional sloppiness, stealing, indiscretions, sick-
+leave abuses, arson, solidarity campaigns.  The brutality of the machine can be
+explained by the resistance to it.  Five years later, the bus returns.  It is
+colorful, has curtains, additions, inscriptions in unknown alphabets.  No one
+recognizes it, and the returnees are strangers...
+
+Bus stop.  The dream is over.  Weekends, holidays, illusions always come to an
+end, and we are once again sitting obediently in the bus or streetcar.  The
+everyday machine triumphs over us.  We are part of it.  It dismembers our life
+into portions of time, soaks up our energy, plows our desires under.  We are
+reliable, punctual, disciplined cogs.  Why do we function?
+
+Deal
+
+The everyday machine does grind us down, although at the same time it immunizes
+us against revulsion, hate and despair.  We feel these things only for brief
+moments, when we have nothing to do and at the same time cannot consume
+anything.  In the morning we look forward to the evening, on Monday we look
+forward to Friday, at the end of vacation we look forward to the next vacation. 
+We give the machine our time and energy, but at the same time it provides us
+with (depending on salary) a number of pleasures:  steaks, stereos, Mykonos,
+wind surfing, Aikido, video, Chivas Regal, arts synthesis, Laurie Anderson... 
+This is our deal with the machine.  This is our balance of life and work.  And
+it has been in the red for some time now.
+
+Even though real wages have fallen and the rat race has intensified, this is
+not the main reason for our life deficit.  The "pleasures" that the machine has
+to offer us are essentially polluted, and we ourselves are less and less
+capable of truly enjoying them.  On the one hand, we get mass products that
+spoil us faster and faster, and on the other hand our work dulls our senses so
+much that we become passive, isolated, unimaginative, lethargic and narrow-
+minded.  As satisfaction decreases, our craving for pleasure increases.  The
+large hole that the machine has carved in us simply cannot be filled.  We can
+cram our apartments full of electronics, travel far away, do gymnastics,
+psychology courses, creativity and meditation, illegal and legal drugs:  But we
+cannot get away from ourselves.
+
+The deal is rotten, because the "good things" are destroyed by the machine:  we
+ourselves, time, relationships, nature, traditions.  Although we can travel
+ever-faster and ever-farther, our freedom of movement in everyday life is
+decreasing.  Economization, renovation, redevelopment and standardization track
+down every "free" second and every unused square meter.  Time and space are
+money.  The machine uses money to implement its logic.  We are locked in,
+budgeted, clean and orderly and unhappy, although we don't really have any
+"reason" to be.
+
+Security
+
+We are gagging on aversion.  We have sensed for some time now that the old deal
+has gone bad, and always was bad.  The illusions of consumption, of technology,
+of the "modern" industrial society in general, are crumbling.  Why don't we get
+out?  Has the machine swallowed us up for good?
+
+Fear of the unknown is stronger than revulsion for the everyday.  The machine
+appears to be the only possible reality.  Habit.  Security.  Reason.  Normalcy. 
+Power.  Who guarantees our survival if we leave or destroy the machine?  Where
+is the medical care, the retirement and survivors' benefits, the insurance?  We
+are alone, and the machine is our only security in life.
+
+Thus, we try to suppress our feelings, our reason and our doubts so that we can
+function.  We convince ourselves over and over again that this is how life is,
+and that no other way is possible.  Thus, we need normalcy to protect ourselves
+from understanding our unhappiness.  We are a conspiracy of unhappy people who
+together defend their unhappiness.  Whoever draws attention to this
+unhappiness, assails it, is met with hate and envy.  Whoever does not go along
+with it becomes a disrupter, a parasite, a weakling, a failure, a dreamer or a
+terrorist, depending on the degree of hate that is felt.  Dropouts encounter
+the perverse solidarity of those people who have understood the seriousness of
+life, who have both feet on the ground, who can be proud of their deprivation
+and frustrations (also known as achievements)...
+
+But how safe is the machine, anyway?  Is solidarity with it worthwhile?  What
+is the source of this strange nervousness of the defenders of normalcy?  The
+truth today is that this imposing machine, industrial society, is inexorably
+pushing forward towards collapse.  Not only is it sucking us dry, it is also
+destroying itself.  Industrial wealth is based on labor, but labor is being
+superseded by automation and electronics, resulting in mass unemployment.  The
+more complex the machine becomes, the more work that must be expended on
+repairs, administration and control.  Maintenance of the machine requires more
+work than the value that it generates on its own.  The harm to nature and to
+health that it inflicts is growing faster than production.  The "health sector"
+is exploding because our sickness is the most important product of the machine. 
+Industrial labor proves to be purely destructive work.
+
+The current long-term economic crisis is the result of the internal
+contradiction of the machine.  When there are upswings, they represent only
+small "recoveries" on the downward spiral.  Each boom period leaves behind a
+larger stock of unemployed people.
+
+If the economy is in crisis, then this is also true of the welfare state.  A
+collapse of the monetary system could sweep away our retirement and survivors'
+benefits, our insurance and pensions, at any time.  Our "guarantees" are only
+on paper--we have no recourse for getting what is owed us.  Our faith in state
+security is only an expression of our actual powerlessness and isolation.  A
+couple of good friends will be worth more than your retirement fund card or
+savings passbook.
+
+Realistic Politics
+
+Perhaps the machine can still be changed and converted, so that it becomes
+safer and more humane?  Why not eliminate unemployment by introducing the 20-
+hour work week, while at the same time applying leisure time to self-help and
+self-sufficiency in neighborhoods and in the social domain?  In this way,
+everyone would have work, and the state could save on most welfare
+expenditures.  Why not restrict private transportation, invest more in public
+transport, save energy (no atomic power plants, more insulation), recycle
+garbage, eat less meat, introduce strict laws on the environment, strengthen
+health care, delegate administration to the neighborhoods ("autonomous
+sector"), abolish the armies?  These reform proposals are reasonable, realistic
+and in fact feasible as well.  Thus, they constitute the official or unofficial
+program of the "enlightened" alternative-social democratic-green-mixed [text
+missing] just as those who start a popular initiative for the 40-hour work week
+or set fire to a speculator's villa.  Both know that the 40-hour week will
+scarcely change the machine and that speculation will nevertheless continue. 
+Thus, this political reason actually conceals a lie:  People act as if they
+will gain something from their action, while knowing that even if their route
+is the right one they will be long since dead once the "goal" is achieved. 
+They will become a hero of history, and will soon feel cheated.  Disappointment
+demands a "reward," and only the machine can provide that.  And so yesterday's
+partisan becomes tomorrow's minister of police...
+
+Thus, we cannot avoid first expressing our very "private" dreams, so that we do
+not deceive each other.  Morale and realism are the machine's ideological
+weapons, and for that reason, we must dare to be both egotistical and
+ridiculous.  Perhaps it will be obvious then that the "others" are not that
+"different," but that we are all more alike than we think.  Perhaps the
+majority, the people, the masses, society, the voters, etc. are only a puppet
+of the machine.  Counter to the "first reality" of the machine, we must develop
+our "second reality."  It is our only change, because the first (including its
+possibilities for improvement) is definitively on a dead-end road.
+
+The machine attempts to take hold of the "second reality" and to digest it as
+culture.  Dreams are planned for and delimited as films, music, novels,
+vacation sites, etc.  Mixing the first and second realities is carefully
+avoided.  We must break through this channeling of our desires.
+
+Today, the "realistic" attitude is one of "all or nothing."  Either we achieve
+rather quickly the jump from the first to the second reality, or both are lost
+together.  Apocalypse and the gospel.  End of the world or utopia:  These
+possibilities stand in sharp juxtaposition today.  We must chose between a
+final, cynical pessimism and a "salto vitale" into an entirely different world. 
+Either apocalyptic enthusiasm or total resignation.  Today, a middle-of-the-
+road position such as "hope," "faith" or "patience" is merely self-deception or
+demagogy.
+
+The "nothing" is possible today, and it has also become a world view with which
+it is quite possible to live.  We do not necessarily have to survive.  "Life"
+as well as "nature" do not care whether they continue to exist.  Making a
+"value" out of survival and nature brings with it only totalitarian risks
+(ecological fascism).  The apocalypticists, nihilists and pessimists have good
+arguments for their decision.  They have their lifestyle, their fashion, music
+and philosophy (Schopenhauer, Cioran, Buddhism).  Perhaps the pessimists are
+even the ones who are truly "happy," and the impending atomic or ecological end
+of the world is the great deliverance from the torturous "life drive."  But
+this is not what I am talking about.
+
+The "nothing" is one possibility, the "all" is another.  Thus, if I attempt to
+depict my phantasies about "all," then this is not to say anything against
+"nothing."  In contrast to nothing, "all" today is relatively poorly defined,
+and appears to be less realistic.  No one subjects himself to ridicule through
+pessimistic predictions.  It is worth expanding the "all" somewhat, if for no
+other reason than to perhaps make "nothing" even more enticing...
+
+Politic Real 
+
+During my reconnaissance missions into the second reality, I came across
+bolo'bolo.  This is my provisional, personal dream of a world in which I would
+like to live as a vagabond or in a certain bolo.  To this extent, it is quite
+serious.  On the other hand, it is only an idea shared by many people, a
+hypothesis that can be dreamed up and then forgotten, a disposable utopia.  I
+would really like to see bolo'bolo become reality within five years, but I also
+know that it can only be a flip among many.  Even if it is only an incentive
+and encouragement to others to let out their fantasies for the future as well,
+then bolo'bolo would serve its purpose...
+
+I imagine that bolo'bolo or other dreams could entice those resigned to real
+politics out of their apathy, and that in this way a new "politic real" could
+emerge.  A politics (i.e., contact with oneself and with others) that is based
+not only on preventing the "worst," but also on certain, wherever possible
+practical, but also comprehensive ideas, from whence it then attempts to
+project itself into the present.  This could mean, for example, trying to
+establish tega-sadis (see below) even today, and demanding the proper
+buildings.
+
+However, it is not really a question of assessing the feasibility of bolo'bolo,
+nor of its (modest) potential uses in present-day situations; rather, it is a
+question of itself.  For this reason, I have gone to some (but not too much)
+effort to determine whether bolo'bolo could function, in purely technical
+terms, in an area like Switzerland (which would in that case not necessarily
+continue to exist), and how long it would take to implement it.  The available
+data indicate that bolo'bolo could be essentially introduced within five years. 
+I have taken the fears of many people in Switzerland (one of the most heavily
+insured countries in the world) into account and determined that no one would
+have to starve, freeze to death or die any earlier than today.  Bolo'bolo
+guarantees a soft landing into the second reality.
+
+Five years (only three, according to the delegate for economic war provisions)
+would be enough time to convert agriculture to self-sufficiency.  Through
+improvisation, understanding and joy in chaos, the major confusion can be
+overcome.  If the nimas are strong enough, the state machinery can be paralyzed
+and the factories are shut down, there will be enough time and energy for the
+big day of restraint X.
+
+Still, bolo'bolo is a planetary arrangement and can only exist if it is at
+least dominant on a worldwide scale (about the same degree as the money economy
+today).  Nevertheless, bolo'bolo as a beginning in a country--such as
+Switzerland, which is especially well-suited to it--is conceivable, since it is
+part of the worldwide process.  Switzerland could move ahead, since it is
+compact, it would not cause any major political shifts, it has a certain model
+character in terms of level of industrialization, and it is also centrally
+positioned in Europe.  The disruptions in the international banking system
+could also be overcome...
+
+But things could turn out completely different.
+
+[p 61:  Unattributed article]
+
+Secret Code Detected by Satellite?
+
+United States Engrossed in Spectacular Data Theft
+
+New Brunswick (DPA)--The U.S. media are currently engrossed in a new,
+spectacular case of "data burglary" reportedly involving seven young computer
+enthusiasts, known as "hackers."  The young people, who live in New Jersey and
+whose names have not been disclosed because they are all under 18 years of age,
+are said to have tapped into data bases, penetrated the communication system of
+the telephone company AT&T, and even cracked codes in the Department of
+Defense.
+
+As the prosecutors reported, telephone services and data bases were supposedly
+hit for thousands of dollars.  Some estimates of the damage even go into the
+millions.  The young people, who are being charged with "conspiracy to theft,"
+are said to have stored code numbers in their home computers with which the
+positions of communications satellites can be altered and transcontinental
+phone calls can be interrupted or placed.
+
+On one of the hackers' electronic bulletin boards, coded telephone numbers were
+found that gave the teenagers access to a communications system in the U.S.
+Department of Defense, said district attorney Alan Rockoff.  "We dialed one of
+the numbers," says Rockoff, "and got a lieutenant general at the Pentagon."
+
+According to the daily USA TODAY, the hackers also called in information on
+U.S. Army tanks, and ordered stereos and radar detectors from mail-order houses
+using stolen credit card numbers.  In order to assess the full range of the
+"data theft," the prosecutors must still examine six computers and mountains of
+floppy diskettes.
+
+The seven accused hackers reportedly did not know each other personally, but
+rather exchanged information via their computers.  In an interview with the NEW
+YORK TIMES, one of the teenagers said that he was innocent, and thus not
+particularly upset by the charges.
+
+An AT&T spokesman said that there was no indication that the young people even
+attempted to alter the positions of satellites.  And the Pentagon assured that
+its computer systems are hacker-safe.  Based on previous experience with
+hackers, however, computer experts doubt this assertion.
+
+[p 61:  Unattributed article]
+
+Engelhard Wants to Restrict Computer Crime
+
+Targeted Prosecution and "Social Control"
+
+Bonn, 16 July--Minister of Justice Engelhard wants to strengthen efforts to
+halt white-collar crime by creating criminal liability for "computer crimes." 
+Besides improving judicial organization through white-collar crime divisions
+and using "targeted prosecution," rethinking in terms of "social control" is
+also necessary, the minister believes.  Despite the large amount of damage that
+they inflict and their assault on the foundations of the economic system, these
+criminals continue to be secretly admired.  "White-collar crimes must be
+subjected to the same level of ostracism in our society as other criminal
+misdeeds."  He added that this is not the equivalent of skipping out on a bar
+tab, riding the streetcar without paying or sneaking a beer on the sly. 
+Rather, public prosecutors estimate that white-collar crime inflicted damages
+totalling DM 6.9 billion in 1983.
+
+Up to now, Engelhard said, it has been particularly difficult to uncover and
+punish criminal acts conducted with computers.  The second law on combatting
+white-collar crime, which is currently under deliberation in the Bundestag
+justice committee and which he hopes to see passed this year, should close
+legal loopholes.  In many cases, the current provisions have been inadequate. 
+For example, if money is set aside for one's own benefit through a computer
+manipulation, then this cannot be considered embezzlement, since that crime
+presupposes a special role by the perpetrator in overseeing the money that he
+"burgled."  Another example:  Withdrawing a sum of money from an automatic
+teller machine using a falsified ATM card is not necessarily robbery under the
+law, since the money is not acquired through breaking into someone else's
+safekeeping, and since the money in question is not a purloined object, but
+rather a claim by the account-holder from his bank.  Engelhard provided a
+planned list of punishable computer crimes:  computer manipulation, computer
+espionage, computer sabotage and unauthorized use of data processing.  As an
+example of computer manipulation, he cited the example of an employee with a
+Bavarian employment office who had DM 250,000 credited to his family by
+improperly inputting child subsidy payments, including alleged child subsidy
+payments for his grandparents, who were over 80 years old.  As "computer
+espionage," he noted the experiment by a Hamburg "Chaos Computer Club," which
+managed to acquire the password for the Hamburger Sparkasse, which enabled them
+to repeatedly call in BTX pages and perpetrate a fraud to the tune of DM
+135,000.  However, this took place under the supervision of the Hamburg data
+protection commissioner.  As potential sabotage, the minister mentioned the
+insertion of a "logical time bomb" in a program.  Someone had instructed a
+program to destroy itself two years after its release at three o'clock in the
+afternoon, which did in fact happen.  For several days, 300 terminals were out
+of order, Engelhard said.  An insurance company dealing with computer misuse
+surveyed 13,000 companies with data processing, 30 percent of which indicated
+the presence of manipulation of data processing.  Engelhard also turned his
+attention towards  the misuse of home computers by "hackers."  The cracking of
+access codes, he said, is not a game, but rather "electronic trespassing."  Nor
+is stealing programs (software piracy) a trivial offense; a Hanover high school
+student allegedly inflicted damages totalling DM 23 million through
+unauthorized copying.  Thus, Engelhard said, it is proper that programs be
+covered by copyright in the amended copyright law, and that criminal acts
+henceforth be punishable by a maximum sentence of five years in prison (was one
+year).
+
+Furthermore, the second law for combatting white-collar crime is intended to
+avert capital investment fraud and curb dubious futures trading, as well as to
+standardize the mix of penal provisions pertaining to the misappropriation of
+wages.
